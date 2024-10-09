@@ -26,3 +26,10 @@ Make sure you have the following installed on your system:
 
 3. Create a .env file in the root directory and add the environment variable:
    REACT_APP_BACKEND_API_URL=http://localhost:3000
+
+4. Run the local environment using this command:
+   ```bash
+   npm start
+
+
+
