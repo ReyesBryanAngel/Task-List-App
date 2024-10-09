@@ -56,7 +56,7 @@ const UpdateTask = ({ updateTaskCloseModal, specificTask, setSnackBar }) => {
             }
 
             if ([401, 400].includes(res.status)) {
-                secureLocalStorage.setItem('accessToken', null);
+                secureLocalStorage.removeItem('accessToken');
                 navigate('/');
             }
         }).catch(e => console.error(e))
