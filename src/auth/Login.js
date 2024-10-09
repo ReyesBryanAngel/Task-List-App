@@ -29,8 +29,7 @@ const Login = () => {
                 navigate('/tasks');
             }
         } catch (err) {
-            console.error('Login failed:', err);
-            setError('Invalid username or password');
+            setError(err?.response?.data?.message);
         }
     };
 
