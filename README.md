@@ -20,13 +20,9 @@ Make sure you have the following installed on your system:
    ```bash
    git clone <app repository>
 
-2. Navigate into the project directory:
-    ```bash
-    cd task-list-app
-
-3. Install the necessary dependencies:
+2. Install the necessary dependencies:
     ```bash
     npm install
 
-4. Create a .env file in the root directory and add the following environment variables:
+3. Create a .env file in the root directory and add the environment variable:
    REACT_APP_BACKEND_API_URL=http://localhost:3000
